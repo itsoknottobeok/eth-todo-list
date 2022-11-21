@@ -1,5 +1,5 @@
-const Insurance = artifacts.require("Insurance");
+const TodoList = artifacts.require("TodoList");
 
 module.exports = function(deployer) {
-  deployer.deploy(Insurance);
+  deployer.deploy(TodoList);
 };
